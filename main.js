@@ -1,3 +1,4 @@
+//-- Let the Hangmanning begin 
 var Word = require('./word.js');
 var prompt = require('prompt');
 
