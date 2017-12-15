@@ -21,7 +21,8 @@ game = {
  		this.currentWrd = new Word(this.wordBank[Math.floor(Math.random()* this.wordBank.length)]);
  		this.currentWrd.getLet();
  		this.promptUser();
- 	},
+	 },
+	 
 
  	resetGuesses: function(){
  		this.guessesRemaining = 10;
